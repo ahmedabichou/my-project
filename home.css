@@ -252,6 +252,27 @@ header {
     text-decoration: underline;
 }
 
-.cursor {
-    z-index: 999;
+.content {
+    position: absolute;
+    transform: translateX(-10%);
+    top: 40%;
+    left: 8%;
+}
+
+h1{
+    margin: 20px 0px 20px;
+    color: #fff;
+    font-size: 80px;
+}
+
+h3 {
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+h4 {
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 20px;
 }
